@@ -171,21 +171,15 @@ AI·Python 기반 자동화
 
 <div align="center">
 
-<code>PIXEL MAGE ANIMATION · COMING SOON</code>
+<a href="https://github.com/koeje1/github-profile-banner-animation">
+  <img
+    src="https://raw.githubusercontent.com/koeje1/github-profile-banner-animation/main/gif_project/05_exports/github_profile_banner_optimized.gif"
+    width="100%"
+    alt="Original pixel mage and dragon animation"
+  />
+</a>
 
-<br /><br />
-
-<sub>An original pixel mage is preparing the next automation spell. ⚡</sub>
-
-<!--
-도트 애니메이션 파일 추가 후 아래 주석을 해제합니다.
-
-<img
-  src="./assets/pixel-mage.gif"
-  width="760"
-  alt="Original pixel mage and dragon animation"
-/>
--->
+<sub>Original pixel-art animation assembled from independently controlled layers.</sub>
 
 </div>
 

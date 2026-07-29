@@ -1,141 +1,209 @@
-# 👋 Hi, I'm Jaehyeong Ko
+<!-- =========================================================
+     JAEHYEONG KO · GitHub Profile
+========================================================= -->
 
-> 반복 업무는 자동화하고, 사람은 더 중요한 일에 집중할 수 있도록 만듭니다.
+<div align="center">
 
-<br />
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:7C3AED&height=230&section=header&text=JAEHYEONG%20KO&fontSize=44&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Operations%20%C3%97%20AI%20%C3%97%20Automation&descAlignY=58&descSize=18"
+  alt="JAEHYEONG KO header"
+/>
 
-## 🙋‍♂️ About Me
-
-안녕하세요.
-현장에서 반복되는 운영 업무를 발견하고, 이를 **AI와 자동화 도구를 활용해 개선하는 실무자**입니다.
-
-개발 자체보다 실제 문제를 해결하는 **Development**를 중요하게 생각합니다.
-
-현재는 운영 업무 경험을 바탕으로
-**Python, AI, n8n, Google Workspace, Slack**을 연결한 업무 자동화를 공부하고 있습니다.
-
-복잡한 기술을 자랑하기보다
-실제로 사용할 수 있고, 반복 업무를 줄여주는 자동화를 만드는 것이 목표입니다.
-
-<br />
-
-## 🚀 Current Focus
-
-* 반복적인 운영 업무 자동화
-* AI를 활용한 문서 요약 및 데이터 정리
-* n8n 기반 워크플로우 설계
-* Google Sheets 업무 데이터 관리
-* Slack 자동 보고 및 알림
-* Python을 활용한 간단한 업무 도구 제작
-* GitHub를 활용한 프로젝트 관리
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6D8CFF&center=true&vCenter=true&width=720&lines=I+automate+repetitive+work.;I+build+tools+people+actually+use.;Operations+%C3%97+AI+%C3%97+Automation"
+    alt="Typing introduction"
+  />
+</a>
 
 <br />
 
-## 🚧 Main Project
+<img src="https://img.shields.io/badge/ROLE-Operations%20Automation-2563EB?style=for-the-badge" alt="Operations Automation" />
+<img src="https://img.shields.io/badge/FOCUS-AI%20Workflow-7C3AED?style=for-the-badge" alt="AI Workflow" />
+<img src="https://img.shields.io/badge/APPROACH-Problem%20Solving-0F172A?style=for-the-badge" alt="Problem Solving" />
 
-### `tmd34-automation`
-
-운영 업무에서 반복적으로 발생하는 작업을
-AI와 자동화 도구로 대체하기 위한 개인 프로젝트입니다.
-
-> **목표: 반복 작업 완전 자동화**
-
-현재 구상 및 개발 중인 기능
-
-* 회의록 자동 요약
-* Slack 정기 브리핑
-* Google Sheets 자동 기록
-* 영수증 및 증빙자료 정리
-* 업무 리포트 자동 생성
-* 출퇴근 및 근태 데이터 정리
-* AI 기반 운영 업무 보조
-* 반복 업무 자동 알림
+</div>
 
 <br />
 
-## 💡 My Values
+## 👋 About Me
 
-### 😎 Everything Should Be Fun
+반복되는 운영 업무를 발견하고,  
+**AI와 자동화 도구를 활용해 실제로 사용할 수 있는 업무 시스템을 만드는 실무자**입니다.
 
-재미가 있어야 오래 지속할 수 있다고 생각합니다.
+개발 기술을 보여주는 것보다  
+현장의 문제를 이해하고 복잡한 업무를 단순한 흐름으로 바꾸는 일을 중요하게 생각합니다.
 
-### ⚡ Fast, but Stable
+> **기술은 목적이 아니라, 문제를 해결하기 위한 도구라고 생각합니다.**
 
-빠르게 만들되, 실제 업무에서 안정적으로 사용할 수 있는 방식을 지향합니다.
+<br />
 
-### 🦻 Explain Simply, Listen Carefully
+## 🧭 What I Do
 
-쉽게 설명하고, 상대방의 이야기는 어렵게 들으려고 노력합니다.
+| 문제 발견 | 흐름 설계 | 자동화 구현 | 현장 적용 |
+|:---:|:---:|:---:|:---:|
+| 반복 업무와 병목 파악 | 데이터와 업무 흐름 구조화 | Python·AI·n8n 활용 | Workspace·Slack·Notion 연결 |
+| 누락과 오류 기준 확인 | 예외 상황과 처리 기준 정의 | 문서·데이터 자동 처리 | 실제 사용 후 지속 개선 |
 
-### 🎯 Solve Real Problems
+<br />
 
-멋있어 보이는 기술보다 실제 현장의 문제를 해결하는 기술을 선택합니다.
+## ⚙️ What I Build
 
-### 🤖 Automate Repetitive Work
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧾 Document Automation</h3>
+      이미지와 문서에서 필요한 정보를 추출하고,<br />
+      정해진 양식에 맞게 데이터를 정리합니다.
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 Operations Data</h3>
+      여러 곳에 흩어진 운영 데이터를 연결하고,<br />
+      누락과 오류를 확인할 수 있도록 구조화합니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💬 Workflow Automation</h3>
+      반복적인 보고·알림·기록 업무를<br />
+      자동으로 이어지는 워크플로우로 설계합니다.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 AI Assistant</h3>
+      업무 기준과 예외 상황을 반영하여<br />
+      실제 현장에서 사용할 수 있는 AI 도구를 만듭니다.
+    </td>
+  </tr>
+</table>
 
-사람이 반복 작업에 시간을 쓰지 않도록 만드는 것이 자동화의 가치라고 생각합니다.
+<br />
+
+### How I Approach Problems
+
+```text
+반복 업무 발견
+      ↓
+업무 기준과 예외 상황 정리
+      ↓
+데이터 흐름 구조화
+      ↓
+AI·Python 기반 자동화
+      ↓
+실제 운영 환경에서 검증 및 개선
+```
 
 <br />
 
 ## 🛠 Tech & Tools
 
-### Currently Using
+### Working With
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white">
-  <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white">
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white">
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets" />
+  <img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" alt="Google Drive" />
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" alt="Slack" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" alt="Notion" />
 </p>
 
 ### Learning & Exploring
 
 <p>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
-</p>
-
-### Interested In
-
-<p>
-  <img src="https://img.shields.io/badge/AI_Agents-000000?style=for-the-badge&logo=probot&logoColor=white">
-  <img src="https://img.shields.io/badge/MCP-5A29E4?style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/Workflow_Automation-0066CC?style=for-the-badge&logoColor=white">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
 <br />
 
-## 📈 2026 Goals
+## 💡 How I Work
 
-* `tmd34-automation` 프로젝트 완성
-* 반복적인 운영 업무 자동화
-* n8n 기반 자동화 워크플로우 구축
-* Python 업무 자동화 역량 강화
-* AI Agent 기반 업무 도구 제작
-* 실제 현장에서 사용할 수 있는 자동화 사례 축적
-* GitHub를 통한 꾸준한 개발 기록
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>⚡ Fast</h3>
+      작은 결과물부터 빠르게 만들고<br />
+      실제 사용을 통해 개선합니다.
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🧱 Stable</h3>
+      속도만큼 예외 처리와<br />
+      안정적인 운영을 중요하게 생각합니다.
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🎯 Practical</h3>
+      멋있어 보이는 기능보다<br />
+      실제 문제를 해결하는 기능을 선택합니다.
+    </td>
+  </tr>
+</table>
 
 <br />
 
-## ☕ Philosophy
+## 📌 Currently
 
-> Computers should handle repetitive work.
-> Humans should focus on solving meaningful problems.
+- Python 기반 업무 자동화 도구 개발
+- AI를 활용한 문서 분석 및 데이터 정리
+- 반복 업무를 연결하는 워크플로우 설계
+- Google Workspace·Slack·Notion 연동 실험
+- 운영 과정의 누락과 오류를 줄이는 기능 개발
+- 실제 업무에 적용할 수 있는 자동화 사례 축적
 
 <br />
 
-**Always learning.
-Always improving.
-Always automating.**
+<div align="center">
+
+<sub>Most practical work is maintained in private repositories.</sub>
+
+</div>
+
+<br />
+
+## 🎮 Side Quest
+
+<div align="center">
+
+<code>PIXEL MAGE ANIMATION · COMING SOON</code>
+
+<br /><br />
+
+<sub>An original pixel mage is preparing the next automation spell. ⚡</sub>
+
+<!--
+도트 애니메이션 파일 추가 후 아래 주석을 해제합니다.
+
+<img
+  src="./assets/pixel-mage.gif"
+  width="760"
+  alt="Original pixel mage and dragon animation"
+/>
+-->
+
+</div>
+
+<br />
+
+<div align="center">
+
+> Computers handle repetitive work.  
+> Humans solve meaningful problems.
+
+<br />
+
+<strong>Always learning · Always improving · Always automating</strong>
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:7C3AED&height=120&section=footer"
+  alt="Footer"
+/>
+
+</div>

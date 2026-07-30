@@ -173,7 +173,7 @@ AI·Python 기반 자동화
 
 <a href="https://github.com/koeje1/github-profile-banner-animation">
   <img
-    src="https://raw.githubusercontent.com/koeje1/github-profile-banner-animation/main/gif_project/05_exports/github_profile_banner_optimized.gif"
+    src="https://raw.githubusercontent.com/koeje1/github-profile-banner-animation/main/gif_project/05_exports/github_profile_banner_dev_preview.gif"
     width="100%"
     alt="Original pixel mage and dragon animation"
   />

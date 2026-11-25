@@ -33,3 +33,24 @@ python scripts/render_stack_badges.py
 ## 로고 출처
 
 배지의 브랜드 마크는 [Simple Icons](https://github.com/simple-icons/simple-icons)에서 가져왔다. 아이콘별 원본·브랜드 출처·라이선스는 [STACK_LOGOS.md](../assets/stack/STACK_LOGOS.md)에 정리되어 있다. [Simple Icons 라이선스](../assets/stack/vendor/LICENSE.simple-icons.md), [브랜드 관련 안내](../assets/stack/vendor/DISCLAIMER.simple-icons.md), [JavaScript 마크 라이선스](../assets/stack/vendor/LICENSE.javascript.txt)를 함께 유지한다.
+
+## 최근 공개 작업 자동 갱신
+
+`update_public_work.py`는 공개 저장소 [operations-automation-lab](https://github.com/koeje1/operations-automation-lab)과 [github-profile-banner-animation](https://github.com/koeje1/github-profile-banner-animation)의 기본 브랜치에서 최근 커밋을 하나씩 가져온다. Python 3.11 이상과 표준 라이브러리만 사용하며, 공개 API 조회에는 토큰이나 추가 패키지가 필요 없다. 두 저장소의 공개 여부와 데이터를 모두 확인한 뒤 결과를 쓴다. API 요청이나 데이터 검증에 실패하면 기존 결과를 보존하고 오류로 종료한다.
+
+저장소 루트에서 직접 갱신하거나, 저장된 공개 데이터로 네트워크 요청 없이 다시 생성할 수 있다.
+
+```bash
+python scripts/update_public_work.py
+python scripts/update_public_work.py --snapshot assets/activity/public-work.json
+```
+
+| 생성 파일 | 내용 |
+|---|---|
+| `assets/activity/public-work-light.svg` | 밝은 테마용 보드 |
+| `assets/activity/public-work-dark.svg` | 어두운 테마용 보드 |
+| `assets/activity/public-work.json` | 두 공개 저장소의 검증된 커밋 데이터. 오프라인 재생성 입력으로 사용 |
+
+[`public-work.yml`](../.github/workflows/public-work.yml)은 **한국 시간 10:17과 22:17**에 실행하도록 예약되어 있다. UTC cron은 `17 1,13 * * *`이다. [Actions 실행 페이지](https://github.com/koeje1/koeje1/actions/workflows/public-work.yml)에서 `Run workflow`로 `main`을 수동 실행할 수 있으며, `main`에 `scripts/update_public_work.py` 또는 `.github/workflows/public-work.yml` 변경을 push해도 실행된다. 결과 파일 세 개만 커밋 대상으로 삼고, 내용이 같으면 커밋을 만들지 않는다.
+
+예약 실행은 GitHub Actions 부하로 지연될 수 있으며, 공개 프로필 저장소에 60일 동안 활동이 없으면 예약 워크플로가 자동으로 비활성화될 수 있다([GitHub 공식 schedule 문서](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)).

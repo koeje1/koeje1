@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="168" viewBox="0 0 420 168" role="img" aria-labelledby="title desc">
+<title id="title">최근 공개 작업</title>
+<desc id="desc">문서 자동화: feat: add sanitized PoC application automation portfolio, 2026-07-30T07:03:14Z / 픽셀 애니메이션: Merge test: hero walk and lantern glow, 2026-07-30T03:32:05Z</desc>
+<defs><clipPath id="row1"><rect x="18" y="74" width="384" height="20"/></clipPath>
+<clipPath id="row2"><rect x="18" y="130" width="384" height="20"/></clipPath></defs>
+<g font-family="Noto Sans CJK KR, Noto Sans KR, Segoe UI, sans-serif">
+<path d="M5 17h3v4h4v3H8v4H5v-4H1v-3h4Z" fill="#4a8068"/>
+<text x="18" y="28" font-size="16" font-weight="700" fill="#26394a">최근 공개 작업</text>
+<text x="376" y="27" text-anchor="end" font-size="11" fill="#596775">마지막 커밋</text>
+<g transform="translate(386 10) scale(.7)" shape-rendering="crispEdges">
+<path d="M8 0H13V4H18V8H21V19H18V24H5V22H1V10H4V5H8Z" fill="#b6dcd0"/>
+<path d="M6 12h2v2H6Z M14 12h2v2h-2Z" fill="#182830"/>
+<path d="M4 17h3v2H4Z M16 17h3v2h-3Z" fill="#dca9ab"/></g>
+<path d="M18 101H402" stroke="#d8e2df"/>
+<text x="18" y="64" font-size="14" font-weight="600" fill="#26394a">문서 자동화</text>
+<text x="402" y="64" text-anchor="end" font-size="11" fill="#596775">2026.07.30 · e4ebf03</text>
+<text x="18" y="87" font-size="12" fill="#596775" clip-path="url(#row1)">feat: add sanitized PoC application automation portfolio</text>
+<text x="18" y="120" font-size="14" font-weight="600" fill="#26394a">픽셀 애니메이션</text>
+<text x="402" y="120" text-anchor="end" font-size="11" fill="#596775">2026.07.30 · e6129a3</text>
+<text x="18" y="143" font-size="12" fill="#596775" clip-path="url(#row2)">Merge test: hero walk and lantern glow</text>
+</g></svg>

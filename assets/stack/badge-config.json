@@ -1,5 +1,5 @@
 {
-  "retrieved_at": "2026-11-24",
+  "retrieved_at": "2026-11-25",
   "source_commit": "d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97",
   "upstream_metadata_blob": "bdda28764c24960e782d3fc95dafe76dfbc13319",
   "groups": [
@@ -17,6 +17,11 @@
       "id": "workspace",
       "label": "Workspace",
       "count": 4
+    },
+    {
+      "id": "other_projects",
+      "label": "Other projects",
+      "count": 5
     }
   ],
   "items": [
@@ -259,7 +264,91 @@
       "upstream_blob_sha": "9d7796b8a3068f33744f39640c84b40138c81cf0",
       "upstream_url": "https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/discord.svg",
       "vendor_path": "vendor/icons/discord.svg"
+    },
+    {
+      "id": "react",
+      "title": "React",
+      "label": "React",
+      "group": "other_projects",
+      "slug": "react",
+      "hex": "61DAFB",
+      "display_hex": "61DAFB",
+      "source": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg",
+      "guidelines": null,
+      "license": null,
+      "upstream_repository": "simple-icons/simple-icons",
+      "upstream_commit": "d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97",
+      "upstream_blob_sha": "60069956389076bff0f26062b0007a88865249a5",
+      "upstream_url": "https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/react.svg",
+      "vendor_path": "vendor/icons/react.svg"
+    },
+    {
+      "id": "vite",
+      "title": "Vite",
+      "label": "Vite",
+      "group": "other_projects",
+      "slug": "vite",
+      "hex": "9135FF",
+      "display_hex": "9135FF",
+      "source": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg",
+      "guidelines": null,
+      "license": null,
+      "upstream_repository": "simple-icons/simple-icons",
+      "upstream_commit": "d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97",
+      "upstream_blob_sha": "239789a450e45c9a883b013cf17f0f8528910bb5",
+      "upstream_url": "https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/vite.svg",
+      "vendor_path": "vendor/icons/vite.svg"
+    },
+    {
+      "id": "supabase",
+      "title": "Supabase",
+      "label": "Supabase",
+      "group": "other_projects",
+      "slug": "supabase",
+      "hex": "3FCF8E",
+      "display_hex": "3FCF8E",
+      "source": "https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg",
+      "guidelines": null,
+      "license": null,
+      "upstream_repository": "simple-icons/simple-icons",
+      "upstream_commit": "d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97",
+      "upstream_blob_sha": "b773557067532d21b0d1b34533f279b54faded06",
+      "upstream_url": "https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/supabase.svg",
+      "vendor_path": "vendor/icons/supabase.svg"
+    },
+    {
+      "id": "fastapi",
+      "title": "FastAPI",
+      "label": "FastAPI",
+      "group": "other_projects",
+      "slug": "fastapi",
+      "hex": "009688",
+      "display_hex": "009688",
+      "source": "https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg",
+      "guidelines": null,
+      "license": null,
+      "upstream_repository": "simple-icons/simple-icons",
+      "upstream_commit": "d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97",
+      "upstream_blob_sha": "ba6ba86ab82c108aad4259a9548494796345bcce",
+      "upstream_url": "https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/fastapi.svg",
+      "vendor_path": "vendor/icons/fastapi.svg"
+    },
+    {
+      "id": "svelte",
+      "title": "Svelte",
+      "label": "Svelte",
+      "group": "other_projects",
+      "slug": "svelte",
+      "hex": "FF3E00",
+      "display_hex": "FF3E00",
+      "source": "https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg",
+      "guidelines": null,
+      "license": null,
+      "upstream_repository": "simple-icons/simple-icons",
+      "upstream_commit": "d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97",
+      "upstream_blob_sha": "f6c55e8aca3614dbe27f74713b3a3760fd7338a1",
+      "upstream_url": "https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/svelte.svg",
+      "vendor_path": "vendor/icons/svelte.svg"
     }
   ]
 }
-

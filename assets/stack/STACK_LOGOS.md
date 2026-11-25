@@ -1,6 +1,6 @@
 # Stack logos — 정적 배지 및 출처
 
-확인일: 2026-11-24. 이 디렉터리는 README와 오프라인 미리보기에서 사용할 실제 브랜드 마크 배지를 포함한다. 외부 Shields/CDN 요청 없이 SVG 또는 PNG 파일만으로 표시된다.
+확인일: 2026-11-25. 이 디렉터리는 README와 오프라인 미리보기에서 사용할 실제 브랜드 마크 배지를 포함한다. 외부 Shields/CDN 요청 없이 SVG 또는 PNG 파일만으로 표시된다.
 
 ## 시각 규격
 
@@ -13,7 +13,7 @@
 
 ## 배치
 
-Core 6개, Web & tools 4개, Workspace 4개의 세 행을 권장한다. 좁은 화면에서는 자연스럽게 줄이 바뀌게 하고 표 안에 배지를 강제로 넣지 않는다. 위아래 애니메이션과 경쟁하지 않도록 배지 자체에는 모션을 넣지 않는다.
+Core 6개, Web & tools 4개, Workspace 4개, Other projects 5개의 네 그룹으로 구성한다. Other projects는 README에서 “다른 프로젝트에서 사용” 항목으로 표시한다. 좁은 화면에서는 자연스럽게 줄이 바뀌게 하고 표 안에 배지를 강제로 넣지 않는다. 위아래 애니메이션과 경쟁하지 않도록 배지 자체에는 모션을 넣지 않는다.
 
 | 범주 | 파일 stem | 표시명 | README 폭×높이 | PNG 픽셀 |
 |---|---|---|---|---|
@@ -31,8 +31,13 @@ Core 6개, Web & tools 4개, Workspace 4개의 세 행을 권장한다. 좁은 �
 | Workspace | google-docs | Docs | 84×32 | 168×64 |
 | Workspace | google-drive | Drive | 85×32 | 170×64 |
 | Workspace | discord | Discord | 99×32 | 198×64 |
+| Other projects | react | React | 87×32 | 174×64 |
+| Other projects | vite | Vite | 84×32 | 168×64 |
+| Other projects | supabase | Supabase | 114×32 | 228×64 |
+| Other projects | fastapi | FastAPI | 97×32 | 194×64 |
+| Other projects | svelte | Svelte | 91×32 | 182×64 |
 
-Google Apps Script와 Workspace 도구는 실제 사용 근거가 있다. HTML/CSS는 운영 플랫폼 구현이며, MCP·Discord는 TypeScript 연결 프로젝트의 근거를 가진다. React·Next.js·FastAPI·Docker·n8n 등 이번에 확인하지 않은 도구를 배지에 추가하지 않았다.
+배지 그룹은 README의 표시 구분이며 숙련도를 나타내지 않는다. React·Vite·Supabase·FastAPI·Svelte도 기존 배지와 같은 높이·패널·서체를 사용한다. 추가된 로고의 형태와 색은 아래 고정 커밋의 원본 및 메타데이터를 따른다.
 
 ## 사용 예
 
@@ -42,7 +47,7 @@ Google Apps Script와 Workspace 도구는 실제 사용 근거가 있다. HTML/C
 <img src="./assets/stack/mcp.png" width="84" height="32" alt="Model Context Protocol" />
 ```
 
-V2.1 README의 기본은 PNG다. 같은 stem의 SVG는 편집·선택용 원본으로 보관한다. PNG의 2배 픽셀 크기를 그대로 HTML width로 넣지 않는다. 재현 코드를 옮길 때는 이 디렉터리의 `badge-config.json`과 `vendor/`도 함께 복사한다.
+README의 기본은 PNG다. 같은 stem의 SVG는 편집·선택용 원본으로 보관한다. PNG의 2배 픽셀 크기를 그대로 HTML width로 넣지 않는다. 재현 코드를 옮길 때는 이 디렉터리의 `badge-config.json`과 `vendor/`도 함께 복사한다.
 
 ## 원본·출처
 
@@ -66,6 +71,11 @@ V2.1 README의 기본은 PNG다. 같은 stem의 SVG는 편집·선택용 원본�
 | Google Docs | [googledocs.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/googledocs.svg) | [source](https://www.google.com/docs/about) |
 | Google Drive | [googledrive.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/googledrive.svg) | [source](https://developers.google.com/drive/web/branding) |
 | Discord | [discord.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/discord.svg) | [source](https://discord.com/branding) |
+| React | [react.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/react.svg) | [source](https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg) |
+| Vite | [vite.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/vite.svg) | [source](https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg) |
+| Supabase | [supabase.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/supabase.svg) | [source](https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg) |
+| FastAPI | [fastapi.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/fastapi.svg) | [source](https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg) |
+| Svelte | [svelte.svg](https://github.com/simple-icons/simple-icons/blob/d59bb32d4f94b1aa8c7cef9d264280d35d5f8f97/icons/svelte.svg) | [source](https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg) |
 
 ## 라이선스 보관
 
@@ -82,14 +92,15 @@ V2.1 README의 기본은 PNG다. 같은 stem의 SVG는 편집·선택용 원본�
 python scripts/render_stack_badges.py
 ```
 
-Python 3, Pillow, Inkscape가 필요하다. 생성은 오프라인이다. 스크립트는 vendored SVG를 기록된 Git blob SHA와 대조하고, 허용된 path만 배지에 넣고, SVG와 2x PNG 및 해시 manifest를 작성한다. Inkscape가 PATH에 없으면 `--inkscape`로 실행 파일을 지정한다.
+Python 3, Pillow, Inkscape가 필요하다. 생성은 오프라인이다. 스크립트는 vendored SVG를 기록된 Git blob SHA와 대조하고, 허용된 path만 배지에 넣고, SVG와 2x PNG 및 해시 manifest를 작성한다. Inkscape가 PATH에 없으면 `--inkscape`로 실행 파일을 지정한다. 검수용 밝은·어두운 배경 그림의 저장 위치는 `--preview-output 경로`로 지정할 수 있다. 네 그룹 모두 설정 파일에서 읽는다.
 
 ## 수행한 검수
 
-- 14개 로고 원본의 Git blob SHA가 소스 반환 SHA와 정확히 일치.
-- 14개 SVG XML 파싱 및 path 원본 좌표 유지.
+- 19개 로고 원본의 Git blob SHA가 소스 반환 SHA와 정확히 일치.
+- 19개 SVG XML 파싱 및 path 원본 좌표 유지.
 - 모든 배지 높이 32px, 각 라벨에 맞춘 가변 폭.
-- PNG 14개가 RGBA 및 지정된 2배 크기인지 확인. 바깥 모서리는 alpha=0.
-- `stack-badges-preview.png`에서 밝은/어두운 배경의 실제 1배 크기로 눈으로 확인: 잘린 텍스트 없음, 심볼 및 글자 겹침 없음.
+- PNG 19개가 RGBA 및 지정된 2배 크기인지 확인. 바깥 모서리는 alpha=0.
+- 추가 작업 전후 기존 14개 배지의 SVG·PNG 해시는 동일하다.
+- 검수 그림에서 네 그룹을 밝은/어두운 배경의 실제 1배 크기로 눈으로 확인: 잘린 텍스트 없음, 심볼 및 글자 겹침 없음.
 - 이 검수는 로컬 산출물 검수다. GitHub 실제 배포 페이지 렌더 확인은 프로필 반영 단계에서 수행한다.
 

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "Latest commits on the default branches of two selected public repositories.",
+  "projects": [
+    {
+      "repository": "koeje1/operations-automation-lab",
+      "label": "문서 자동화",
+      "visibility": "public",
+      "commit": {
+        "sha": "e4ebf032d0f401646e60527bed5ec0489022ef35",
+        "date": "2026-07-30T07:03:14Z",
+        "title": "feat: add sanitized PoC application automation portfolio",
+        "url": "https://github.com/koeje1/operations-automation-lab/commit/e4ebf032d0f401646e60527bed5ec0489022ef35"
+      }
+    },
+    {
+      "repository": "koeje1/github-profile-banner-animation",
+      "label": "픽셀 애니메이션",
+      "visibility": "public",
+      "commit": {
+        "sha": "e6129a3c602b0dc1bd14bea6cf9c998acf3a97b8",
+        "date": "2026-07-30T03:32:05Z",
+        "title": "Merge test: hero walk and lantern glow",
+        "url": "https://github.com/koeje1/github-profile-banner-animation/commit/e6129a3c602b0dc1bd14bea6cf9c998acf3a97b8"
+      }
+    }
+  ]
+}

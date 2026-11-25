@@ -1,0 +1,46 @@
+name: Update recent public work
+
+on:
+  schedule:
+    # 10:17 and 22:17 Asia/Seoul; avoid the top-of-hour queue.
+    - cron: '17 1,13 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_public_work.py
+      - .github/workflows/public-work.yml
+
+permissions: {}
+
+concurrency:
+  group: recent-public-work
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'koeje1/koeje1' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 1
+
+      - name: Read selected public repositories and render the board
+        run: python3 scripts/update_public_work.py
+
+      - name: Commit changed generated files only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- assets/activity/public-work-light.svg assets/activity/public-work-dark.svg assets/activity/public-work.json
+          if git diff --cached --quiet; then
+            echo 'No public project changes; nothing to commit.'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore: refresh recent public work'
+          git push origin HEAD:main

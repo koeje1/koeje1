@@ -82,20 +82,20 @@ def make_svg(item: dict, width: int, text_width: float, geometry: str) -> str:
 '''
 
 
-def contact_sheet(items: list[dict], font: ImageFont.FreeTypeFont) -> None:
+def contact_sheet(items: list[dict], font: ImageFont.FreeTypeFont,
+                  groups: list[dict], output: Path) -> None:
     # This is a visual QA sheet of the delivered badges, not an additional brand
     # illustration. The actual badge PNGs retain transparent rounded corners.
-    labels = ["Core", "Web & tools", "Workspace"]
-    groups = ["core", "web_tools", "workspace"]
     card_width = 930
-    card_height = 198
+    card_height = 24 + 58 * len(groups)
     sheet = Image.new("RGB", (card_width, card_height * 2), "#F6F8FA")
     draw = ImageDraw.Draw(sheet)
     heading = ImageFont.truetype(font.path, 13)
     for block, bg in enumerate(["#F6F8FA", "#0D1117"]):
         ybase = block * card_height
         draw.rectangle((0, ybase, card_width, ybase + card_height), fill=bg)
-        for row, (group, name) in enumerate(zip(groups, labels)):
+        for row, category in enumerate(groups):
+            group, name = category["id"], category["label"]
             y = ybase + 16 + row * 58
             draw.text((16, y + 9), name, font=heading, fill="#57606A" if block == 0 else "#9DA7B2")
             x = 128
@@ -104,12 +104,15 @@ def contact_sheet(items: list[dict], font: ImageFont.FreeTypeFont) -> None:
                 badge = badge.resize((item["width"], HEIGHT), Image.Resampling.LANCZOS)
                 sheet.paste(badge, (x, y), badge)
                 x += item["width"] + 8
-    sheet.save(STACK / "stack-badges-preview.png")
+    output.parent.mkdir(parents=True, exist_ok=True)
+    sheet.save(output)
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--inkscape", default=shutil.which("inkscape"), help="Inkscape executable path")
+    parser.add_argument("--preview-output", type=Path, default=STACK / "stack-badges-preview.png",
+                        help="Light/dark contact-sheet output path")
     args = parser.parse_args()
     if not args.inkscape:
         raise SystemExit("Inkscape is required for offline SVG-to-PNG rasterization.")
@@ -142,7 +145,7 @@ def main() -> None:
     manifest = {"retrieved_at": config["retrieved_at"], "source_commit": config["source_commit"],
                 "height": HEIGHT, "raster_scale": RASTER_SCALE, "items": results}
     (STACK / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    contact_sheet(results, font)
+    contact_sheet(results, font, config["groups"], args.preview_output)
     print(json.dumps({"badge_count": len(results), "manifest": str(STACK / "manifest.json"),
                       "badges": [{"id": x["id"], "width": x["width"], "height": x["height"]} for x in results]}, ensure_ascii=False))
 

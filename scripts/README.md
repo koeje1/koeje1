@@ -20,11 +20,11 @@ python scripts/render_stack_badges.py
 | 이미지 | 내용 | 원본 스크립트 |
 |---|---|---|
 | `assets/profile/header.gif` | 960×360, 16초 루프. 마법사와 다섯 펫, 별과 반딧불, 작은 주문과 글자 하이라이트 | `render_banners.py` |
-| `assets/divider/trail.gif` | 960×72, 16초 루프. 작은 문서를 따라 움직이는 정령 | `render_divider.py` |
+| `assets/divider/trail.gif` | 420×88, 8초 루프. 투명 배경 위에서 걷고 뛰고 날아다니는 다섯 동료 | `render_divider.py` |
 | `assets/profile/footer.gif` | 960×112, 16초 루프. 잠든 동료들의 호흡, 정령과 랜턴 | `render_banners.py` |
 | `assets/stack/*.png` | 브랜드 로고와 도구 이름을 함께 표시하는 정적 배지 | `render_stack_badges.py` |
 
-렌더 스크립트를 실행하면 검수용 미리보기 이미지와 JSON 보고서도 생성된다.
+헤더·푸터 렌더 스크립트를 실행하면 검수용 미리보기 이미지와 JSON 보고서도 생성된다. 중간 펫 이미지는 배경이 투명하며, README에서는 원본 폭인 420px로 표시한다.
 
 세 GIF에는 같은 파일명의 **PNG 정지 대안**이 있다. 움직임을 사용하지 않으려면 README의 해당 경로를 `header.png`, `trail.png`, `footer.png`로 바꾸면 된다. 함께 있는 SVG는 정지 프레임이며, 시간에 따른 움직임은 Python 렌더러에서 만든다.
 

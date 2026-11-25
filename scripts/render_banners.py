@@ -223,7 +223,7 @@ def fireflies(t,footer=False):
 
 def hero_text(t):
     title=f'<text x="480" y="70" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="39" font-weight="700" letter-spacing="3">JAEHYEONG KO</text>'
-    subtitle=f'<text x="480" y="105" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" letter-spacing="1.5">OPERATIONS × AI × AUTOMATION</text>'
+    subtitle=f'<text x="480" y="105" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" letter-spacing="1.5">AI × CODE × PLAY</text>'
     s=f'<g fill="{P["cream"]}">{title}</g><g fill="{P["muted"]}">{subtitle}</g>'
     u=progress(t,12.64,2.56)
     if u is not None:
@@ -272,7 +272,7 @@ def hero_characters(t):
 
 def hero_svg(t=0):
     t %= LOOP_S
-    s=svg_start(HERO_H,"JAEHYEONG KO — Operations × AI × Automation")
+    s=svg_start(HERO_H,"JAEHYEONG KO — AI × Code × Play")
     s+=rect(0,0,W,HERO_H,P["sky"])
     for i,(x,y) in enumerate([(52,54),(117,111),(253,35),(350,26),(708,55),(742,28),(905,62),(874,152),(197,145),(685,127)]):
         level=wave(t,8,i*0.64)
@@ -439,7 +439,7 @@ def main(poster_only=False):
     event_board.save(PREVIEW/'scene-events-contact-sheet.png')
     report={"version":"2.1","source":"code-native SVG geometry; original screenshot unmodified", "loop_ms":LOOP_MS,"frame_ms":FRAME_MS,"sample_fps":FPS,
       "seam_equal_svg":hero_svg(0)==hero_svg(LOOP_S),"footer_seam_equal_svg":footer_svg(0)==footer_svg(LOOP_S),"font":"DejaVu Sans",
-      "title_strings":["JAEHYEONG KO","OPERATIONS × AI × AUTOMATION"],"title_positions_fixed":True,"title_color_highlight":True,
+      "title_strings":["JAEHYEONG KO","AI × CODE × PLAY"],"title_positions_fixed":True,"title_color_highlight":True,
       "loop_strategy":"periodic functions; no forced reset or duplicate final frame",
       "available_exports":["header.gif","footer.gif","header.png","footer.png"],"default_readme_images":["header.gif","footer.gif"],"files":{}}
     for f in sorted(OUT.iterdir()):
